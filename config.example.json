@@ -1,0 +1,33 @@
+{
+  "onebot": {
+    "ws": "ws://127.0.0.1:3001",
+    "http": "http://127.0.0.1:3000",
+    "accessToken": "",
+    "wsToken": ""
+  },
+  "dsh": {
+    "baseUrl": "",
+    "token": "",
+    "autoDiscover": true
+  },
+  "agentPreset": "onebot-diary",
+  "workspace": {
+    "dir": "./data/agents",
+    "title": "OneBot Diary"
+  },
+  "allow": {
+    "private": [
+      "123456789"
+    ]
+  },
+  "data": {
+    "dir": "./data"
+  },
+  "diary": {
+    "dir": "./data/diary",
+    "prefix": "日记"
+  },
+  "mcp": {
+    "enabled": true
+  }
+}
